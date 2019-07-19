@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superdoctor", "superdoctor\superdoctor.csproj", "{BC561376-D956-4FF0-9F43-28725332FCD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Release|x64.ActiveCfg = Release|x64
+		{BC561376-D956-4FF0-9F43-28725332FCD0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2284F559-1F5C-4FAE-8A95-5F24A30AEA77}
+	EndGlobalSection
+EndGlobal
