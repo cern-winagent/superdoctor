@@ -15,7 +15,7 @@ namespace superdoctor
     {
         public string Execute(JObject set)
         {
-            var settings = set.ToObject<Settings.Plugin>();
+            var settings = set.ToObject<Settings.SuperDoctor>();
 
             var proc = new Process
             {

@@ -70,7 +70,7 @@
     <Compile Include="Models\PSU.cs" />
     <Compile Include="Models\SuperdoctorData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Settings\Plugin.cs" />
+    <Compile Include="Settings\SuperDoctor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

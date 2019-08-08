@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace superdoctor.Settings
 {
-    class Plugin
+    class SuperDoctor
     {
         [JsonProperty(PropertyName = "hostname")]
         public string HostName { get; set; }
