@@ -151,7 +151,7 @@ namespace superdoctor
                 Devices = devices,
                 PSUs = PSUs,
                 Date = time.ToUniversalTime(),
-                HostName = settings.HostName,
+                HostName = System.Environment.MachineName,
                 UnprocessedOutput = output
             };
             return JsonConvert.SerializeObject(superdoctor);
