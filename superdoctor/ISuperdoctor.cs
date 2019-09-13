@@ -7,8 +7,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
-namespace superdoctor
+using Superdoctor.Exceptions;
+
+namespace Superdoctor
 {
     [PluginAttribute(PluginName = "Superdoctor")]
     public class ISuperDoctor : IInputPlugin
@@ -16,6 +19,11 @@ namespace superdoctor
         public string Execute(JObject set)
         {
             var settings = set.ToObject<Settings.SuperDoctor>();
+
+            if (!File.Exists(settings.Path))
+            {
+                throw new WrongPathException(String.Format("Could not find Superdoctor: {0}", settings.Path));
+            }
 
             var proc = new Process
             {

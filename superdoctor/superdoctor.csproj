@@ -65,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\WrongPathException.cs" />
     <Compile Include="ISuperdoctor.cs" />
     <Compile Include="Models\Device.cs" />
     <Compile Include="Models\PSU.cs" />
@@ -75,6 +76,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\BuildCommon.targets" />
 </Project>

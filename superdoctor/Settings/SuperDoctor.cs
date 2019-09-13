@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel;
 
-namespace superdoctor.Settings
+namespace Superdoctor.Settings
 {
     class SuperDoctor
     {

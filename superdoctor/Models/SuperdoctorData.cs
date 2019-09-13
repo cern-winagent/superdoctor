@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace superdoctor.Models
+namespace Superdoctor.Models
 {
     public class SuperdoctorData
     {
