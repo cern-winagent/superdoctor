@@ -6,7 +6,7 @@ namespace Superdoctor.Exceptions
     {
         public WrongPathException(string message) : base(message)
         {
-
+            Data["continue"] = false;
         }
     }
 }
