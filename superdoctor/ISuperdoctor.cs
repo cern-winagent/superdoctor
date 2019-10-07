@@ -16,6 +16,8 @@ namespace Superdoctor
     [PluginAttribute(PluginName = "Superdoctor")]
     public class ISuperDoctor : IInputPlugin
     {
+        public event EventHandler<MessageEventArgs> MessageEvent;
+
         public string Execute(JObject set)
         {
             var settings = set.ToObject<Settings.SuperDoctor>();
